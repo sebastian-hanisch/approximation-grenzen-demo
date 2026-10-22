@@ -1,7 +1,7 @@
 """Konstanten: Regler-Grenzen, Rechengrenzen, Messreihen-Parameter, Farben und Presets.
 
 Rechengrenze am Regler-Maximum (DEMO-PLAYBOOK §1c): n = 14 Punkte; Held–Karp als Maßstab braucht (n − 1) · 2^(n − 1) = 106.496 Zellen (rund 0,2 Sekunden); die Paarung hat höchstens n ungerade Knoten
-(bei n = 14 im Median 7), die Bitmasken-DP bleibt klein."""
+(bei n = 14 im Median 6), die Bitmasken-DP bleibt klein."""
 
 N_MIN, N_MAX, DEFAULT_N = 5, 14, 10
 SEED_MAX, DEFAULT_SEED = 999999, 35
